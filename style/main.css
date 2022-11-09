@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Fredoka One;
+    src: url(../fonts/FredokaOne-Regular.ttf)
+}
+
+body {
+    background: #141414;
+    color: white;
+    width: 100%;
+    height: 200%;
+    overflow-x: hidden;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    width: 540px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 200px auto;
+    top: calc(50% - 540px);
+    padding: 20px;
+    text-align: center;
+
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-container {
+    background: #222222;
+    width: 1080px;
+    height: 650px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 500px auto;
+    top: calc(50% - 540px);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+.main-container img {
+    width: 285px;
+    height: 305px;
+    padding: 30px;
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+}
+.main-container .main-about {
+    display: flex;
+    margin: 0 0 0 145px;
+}
+.main-container .main-about .pyoko {
+    margin: 0 277px 0 0;
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: Fredoka One, sans-serif;
+    letter-spacing: 1.2px;
+}
+.main-container .main-about .rose {
+    margin: 0 240px 0 0;
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: Fredoka One, sans-serif;
+    letter-spacing: 1.2px;
+}
+.main-container .main-about .dxxmshxpia {
+    margin: 0 50px 0 0;
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: Fredoka One, sans-serif;
+    letter-spacing: 1.2px;
+}
+.main-container .main-about-text {
+    display: flex;
+    margin: 0 0 0 20px;
+    padding: 10px;
+}
+.main-container .main-about-text .about-pyoko {
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    width: 310px;
+    height: 70px;
+    font-family: Fredoka One, sans-serif;
+    margin: 0 50px 0 0;
+}
+.main-container .main-about-text .about-pyoko .VK1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 50px 0 0 0;
+    transition: 1s;
+}
+.main-container .main-about-text .about-pyoko .VK1:hover {
+    transform: scale(1.2);
+}
+.main-container .main-about-text .about-pyoko a {
+    text-decoration: none;
+}
+.main-container .main-about-text .about-rose {
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    width: 295px;
+    height: 70px;
+    font-family: Fredoka One, sans-serif;
+    margin: 0 50px 0 0;
+}
+.main-container .main-about-text .about-rose .VK2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 50px 0 0 0;
+    transition: 1s;
+}
+.main-container .main-about-text .about-rose .VK2:hover {
+    transform: scale(1.2);
+}
+.main-container .main-about-text .about-rose a {
+    text-decoration: none;
+}
+.main-container .main-about-text .about-dxxmshxpia {
+    border: 1px solid blueviolet;
+    border-radius: 25px;
+    width: 295px;
+    height: 70px;
+    font-family: Fredoka One, sans-serif;
+}
+.main-container .main-about-text .about-dxxmshxpia .VK3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 50px 0 0 0;
+    transition: 1s;
+}
+.main-container .main-about-text .about-dxxmshxpia .VK3:hover {
+    transform: scale(1.2);
+}
+.main-container .main-about-text .about-dxxmshxpia .VK3 a {
+    text-decoration: none;
+}
+
+.main-text {
+    background: #222222;
+    width: 540px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 450px auto;
+    top: calc(50% - 540px);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: Fredoka One, sans-serif;
+    border: 1px solid blueviolet;
+}
+.main-container iframe {
+    border-radius: 25px;
+
+}
+.main-container2 {
+    background: #222222;
+    width: 850px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 2490px auto;
+    top: calc(50% - 540px);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid blueviolet;
+    z-index: 1;
+}
+.main2 .main-text2 {
+    background: #222222;
+    width: 540px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 2440px auto;
+    top: calc(50% - 540px);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: Fredoka One, sans-serif;
+    border: 1px solid blueviolet;
+}
+.main2 .main-container2 iframe {
+    border-radius: 25px;
+}
+.main2 .main-subtext {
+    background: #222222;
+    width: 540px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 3000px auto;
+    top: calc(50% - 540px);
+    border-radius: 0 0 25px 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: Fredoka One, sans-serif;
+    border: 1px solid blueviolet;
+}
+.main3 .main-container3 {
+    background: #222222;
+    width: 1080px;
+    height: 650px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1500px auto;
+    top: calc(50% - 540px);
+    border-radius: 25px;
+    padding: 20px;
+    border: 1px solid blueviolet;
+}
+.main3 .main-text3 {
+    background: #222222;
+    width: 540px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1450px auto;
+    top: calc(50% - 540px);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: Fredoka One, sans-serif;
+    border: 1px solid blueviolet;
+}
+footer {
+    background: #222222;
+    width: 1920px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 3300px auto;
+    top: calc(50% - 540px);
+    padding: 20px;
+    text-align: center;
+    font-family: Fredoka One, sans-serif;
+    border: 1px solid blueviolet;
+}
+header {
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    border-bottom: 1px solid blueviolet;
+    background: #222222;
+}
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+.header a {
+
+    margin: 0 100px 0 50px;
+    text-decoration: none;
+    color: white;
+    font-family: Fredoka One, sans-serif;
+}
+.header a:hover {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+
+
+
+
+
